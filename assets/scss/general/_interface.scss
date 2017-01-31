@@ -1,0 +1,37 @@
+h1 {
+  font-size: 40pt;
+}
+
+h2 {
+  font-size: 35pt;
+}
+
+h3 {
+  font-size: 30pt;
+}
+
+h4 {
+  font-size: 25pt;
+}
+
+h5 {
+  font-size: 20pt;
+}
+
+%btn {
+  display: inline-block;
+  padding: 6px 12px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-family: $font-highlight;
+  user-select: none;
+}
+
+.btn-book{
+  @extend %btn;
+  background-color: $green;
+}
